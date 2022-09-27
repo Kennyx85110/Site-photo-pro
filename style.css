@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700');
+
+* {
+    box-sizing: border-box;
+}
+
+iframe{
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: left; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #000000; /* couleur du texte */
+    background: #ffffff; /* couleur de fond */
+    height: 36px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 10px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 13px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    }
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #f4863c; /* couleur de fond */
+    }
+
+nav{
+    float: right;
+    margin-top: 0%;
+}
+
+.A {
+    font-family: sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding: 0px;
+    margin: 0px;
+    color: #f4863c;
+}
+
+div{
+    position: relative; top: 9px;
+    position: relative; left: 13px;
+    margin-right: 1089px;
+}
+
+.titre{
+    font-family: 'Qwigley';
+    position: relative; top: 25px;
+    position: relative; left: 480px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 4.8em;
+}
+
+.titree{
+    font-family: 'Qwigley';
+    position: relative; left: 560px;
+    position: relative; bottom: 22px;
+    margin-left: 50px;
+    margin: 0%;
+    padding: 0%;
+    font-size: 3.7em;
+}
+
+.bord{
+    position: relative; top: 27px;
+    height: 3px;
+    background-color: #f4863c;
+    border: none;
+}
+
+.image{
+    height: 993px;
+    position: relative; top: 19px;
+}
+
+.imagee{
+    height: 993px;
+    position: relative; bottom: 978px;
+    position: relative; left: 662px;
+}
+
+.border{
+    position: relative; bottom: 990px;
+    height: 3px;
+    background-color: #f4863c;
+    border: none;
+}
+
+.present{
+    text-transform: uppercase;
+    font-family: 'Federo';
+    position: relative; bottom: 962px;
+    position: relative; left: 253px;
+    text-align: center;
+    font-size: 2.3em;
+    margin-right: 500px;
+}
+
+.borderr{
+    position: relative; bottom: 938px;
+    height: 3px;
+    background-color: #f4863c;
+    border: none;
+}
+
+.imageee{
+    height: 882.5px;
+    position: relative; bottom: 946px;
+}
+
+.bordd{
+    position: relative; bottom: 960px;
+    height: 3px;
+    background-color: #f4863c;
+    border: none;
+}
+
+.copyright{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative; bottom: 60px;
+}
+
+.photoo{
+    height: 993px;
+    position: relative; bottom: 968px;
+}
+
+.photooo{
+    height: 993px;
+    position: relative; bottom: 1965px;
+    position: relative; left: 662px;
+}
+
+.borddd{
+    position: relative; bottom: 1977px;
+    height: 3px;
+    background-color: #f4863c;
+    border: none;
+}
